@@ -93,7 +93,7 @@ export const supportedPools = [
     name: 'Tether Turtle',
     symbol: 'USDT-ETH UNI-V2 LP',
     tokenSymbol: 'USDT',
-    icon: '🐢',
+    icon: '🐢🔪',
   },
   {
     pid: 1,

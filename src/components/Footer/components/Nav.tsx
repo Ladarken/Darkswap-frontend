@@ -8,21 +8,21 @@ const Nav: React.FC = () => {
         target="_blank"
         href="https://etherscan.io/address/0xc2edad668740f1aa35e4d8f227fb8e17dca888cd#code"
       >
-        MasterChef Contract
+        DarkMaster Contract
       </StyledLink>
       <StyledLink
         target="_blank"
         href="https://uniswap.info/pair/0xce84867c3c02b05dc570d0135103d3fb9cc19433"
       >
-        Uniswap SUSHI-ETH
+        Uniswap DARK-XIOT
       </StyledLink>
-      <StyledLink target="_blank" href="https://discord.gg/hJ2p555">
+      <StyledLink target="_blank" href="https://discord.gg/GS3c5D8">
         Discord
       </StyledLink>
-      <StyledLink target="_blank" href="https://github.com/sushiswap">
+      <StyledLink target="_blank" href="https://github.com/Ladarken/Darkswap">
         Github
       </StyledLink>
-      <StyledLink target="_blank" href="https://twitter.com/sushiswap">
+      <StyledLink target="_blank" href="https://twitter.com/Darkswap1">
         Twitter
       </StyledLink>
     </StyledNav>

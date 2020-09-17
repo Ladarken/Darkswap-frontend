@@ -13,7 +13,8 @@ export const red = {
 
 export const grey = {
   100: '#000',
-  200: '#999',//block
+  200: 'rgba(153,153,153,.6)',//block
+  250: '#fff',
   300: '#fff',
   400: '#fff',
   500: '#fff',
