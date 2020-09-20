@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Ladarken.github.io/Darkswap-frontend",
   "name": "yam",
   "version": "0.1.0",
   "private": true,
@@ -28,7 +29,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "yarn build && cp ./build/index.html ./build/200.html && surge ./build sushiswap.org"
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -49,7 +51,8 @@
     "@types/numeral": "0.0.28",
     "@types/react-dom": "^16.9.8",
     "@types/react-router-dom": "^5.1.5",
-    "@types/styled-components": "^5.1.2"
+    "@types/styled-components": "^5.1.2",
+    "gh-pages": "^3.1.0"
   },
   "prettier": {
     "trailingComma": "all",
