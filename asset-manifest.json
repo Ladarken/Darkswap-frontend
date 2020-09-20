@@ -1,0 +1,36 @@
+{
+  "files": {
+    "static/js/0.a0d76849.chunk.js": "/Darkswap-frontend/static/js/0.a0d76849.chunk.js",
+    "main.css": "/Darkswap-frontend/static/css/main.5f59d50f.chunk.css",
+    "main.js": "/Darkswap-frontend/static/js/main.7b60fe5e.chunk.js",
+    "runtime-main.js": "/Darkswap-frontend/static/js/runtime-main.299e0459.js",
+    "static/js/3.2860c4b3.chunk.js": "/Darkswap-frontend/static/js/3.2860c4b3.chunk.js",
+    "static/js/4.e9e552a8.chunk.js": "/Darkswap-frontend/static/js/4.e9e552a8.chunk.js",
+    "static/js/5.a5e7bfcb.chunk.js": "/Darkswap-frontend/static/js/5.a5e7bfcb.chunk.js",
+    "static/js/6.430d4c58.chunk.js": "/Darkswap-frontend/static/js/6.430d4c58.chunk.js",
+    "static/js/7.b087b47d.chunk.js": "/Darkswap-frontend/static/js/7.b087b47d.chunk.js",
+    "static/js/8.20339736.chunk.js": "/Darkswap-frontend/static/js/8.20339736.chunk.js",
+    "static/js/9.bfd2f273.chunk.js": "/Darkswap-frontend/static/js/9.bfd2f273.chunk.js",
+    "static/js/10.918b78db.chunk.js": "/Darkswap-frontend/static/js/10.918b78db.chunk.js",
+    "static/js/11.b71cce41.chunk.js": "/Darkswap-frontend/static/js/11.b71cce41.chunk.js",
+    "index.html": "/Darkswap-frontend/index.html",
+    "precache-manifest.39a85e77a3f9ecc946870a8ad24b1945.js": "/Darkswap-frontend/precache-manifest.39a85e77a3f9ecc946870a8ad24b1945.js",
+    "service-worker.js": "/Darkswap-frontend/service-worker.js",
+    "static/js/3.2860c4b3.chunk.js.LICENSE.txt": "/Darkswap-frontend/static/js/3.2860c4b3.chunk.js.LICENSE.txt",
+    "static/js/5.a5e7bfcb.chunk.js.LICENSE.txt": "/Darkswap-frontend/static/js/5.a5e7bfcb.chunk.js.LICENSE.txt",
+    "static/js/6.430d4c58.chunk.js.LICENSE.txt": "/Darkswap-frontend/static/js/6.430d4c58.chunk.js.LICENSE.txt",
+    "static/js/7.b087b47d.chunk.js.LICENSE.txt": "/Darkswap-frontend/static/js/7.b087b47d.chunk.js.LICENSE.txt",
+    "static/js/8.20339736.chunk.js.LICENSE.txt": "/Darkswap-frontend/static/js/8.20339736.chunk.js.LICENSE.txt",
+    "static/media/White.svg": "/Darkswap-frontend/static/media/White.4c8215f4.svg",
+    "static/media/index.css": "/Darkswap-frontend/static/media/bg.3ada91a8.jpg",
+    "static/media/block_bg.jpg": "/Darkswap-frontend/static/media/block_bg.975e7410.jpg",
+    "static/media/metamask-fox.svg": "/Darkswap-frontend/static/media/metamask-fox.c06f3a3e.svg",
+    "static/media/wallet-connect.svg": "/Darkswap-frontend/static/media/wallet-connect.d1f73612.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.299e0459.js",
+    "static/js/3.2860c4b3.chunk.js",
+    "static/css/main.5f59d50f.chunk.css",
+    "static/js/main.7b60fe5e.chunk.js"
+  ]
+}
