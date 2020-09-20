@@ -12,6 +12,7 @@ interface ButtonProps {
   text?: string,
   to?: string,
   variant?: 'default' | 'secondary' | 'tertiary'
+  bgcolor?: string,
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -23,9 +24,10 @@ const Button: React.FC<ButtonProps> = ({
   text,
   to,
   variant,
+  bgcolor,
 }) => {
   const { color, spacing } = useContext(ThemeContext)
-
+  
   let buttonColor: string
   switch (variant) {
     case 'secondary':
@@ -35,11 +37,17 @@ const Button: React.FC<ButtonProps> = ({
     default:
       buttonColor = color.primary.main
   }
-
+  let backgroundColor: string
+  if(bgcolor){
+    backgroundColor = bgcolor
+  }else{
+    backgroundColor = 'green'
+  }
   let boxShadow: string
   let buttonSize: number
   let buttonPadding: number
   let fontSize: number
+
   switch (size) {
     case 'sm':
       boxShadow = `6px 6px 12px ${color.grey[300]},
@@ -61,9 +69,8 @@ const Button: React.FC<ButtonProps> = ({
         -12px -12px 24px -2px ${color.grey[100]}ff;`
       buttonPadding = spacing[4]
       buttonSize = 56
-      fontSize = 16
+      fontSize = 16   
   }
-
   const ButtonChild = useMemo(() => {
     if (to) {
       return <StyledLink to={to}>{text}</StyledLink>
@@ -83,6 +90,7 @@ const Button: React.FC<ButtonProps> = ({
       onClick={onClick}
       padding={buttonPadding}
       size={buttonSize}
+      bgcolor={backgroundColor}
     >
       {children}
       {ButtonChild}
@@ -96,12 +104,13 @@ interface StyledButtonProps {
   disabled?: boolean,
   fontSize: number,
   padding: number,
-  size: number
+  size: number,
+  bgcolor: string,
 }
 
 const StyledButton = styled.button<StyledButtonProps>`
   align-items: center;
-  background-color: ${props => props.theme.color.grey[200]};
+  background-color: ${props => props.theme.color.grey[260]};
   border: 0;
   border-radius: 12px;
   box-shadow: ${props => props.boxShadow};
@@ -118,7 +127,7 @@ const StyledButton = styled.button<StyledButtonProps>`
   pointer-events: ${props => !props.disabled ? undefined : 'none'};
   width: 100%;
   &:hover {
-    background-color: #ccc;
+    background-color: ${props => props.theme.color.grey[200]};
     color:#111;
     
   }

@@ -20,6 +20,7 @@ import useUnstake from '../../../hooks/useUnstake'
 import { getBalanceNumber } from '../../../utils/formatBalance'
 import DepositModal from './DepositModal'
 import WithdrawModal from './WithdrawModal'
+import {GiRibbonShield} from "react-icons/gi"
 
 interface StakeProps {
   lpContract: Contract
@@ -73,14 +74,15 @@ const Stake: React.FC<StakeProps> = ({ lpContract, pid, tokenName }) => {
       <CardContent>
         <StyledCardContentInner>
           <StyledCardHeader>
-            <CardIcon>👨🏻‍🍳</CardIcon>
+            <CardIcon><GiRibbonShield /></CardIcon>
             <Value value={getBalanceNumber(stakedBalance)} />
             <Label text={`${tokenName} Tokens Staked`} />
           </StyledCardHeader>
           <StyledCardActions>
             {!allowance.toNumber() ? (
               <Button
-                disabled={requestedApproval}
+                // disabled={requestedApproval}
+                disabled
                 onClick={handleApprove}
                 text={`Approve ${tokenName}`}
               />

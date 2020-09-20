@@ -14,7 +14,9 @@ export const red = {
 export const grey = {
   100: '#000',
   200: 'rgba(153,153,153,.6)',//block
+  240: 'rgba(153,153,153,1)',//block
   250: '#fff',
+  260: 'rgba(65,105,225,.9)',
   300: '#fff',
   400: '#fff',
   500: '#fff',

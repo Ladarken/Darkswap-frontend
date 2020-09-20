@@ -26,7 +26,6 @@ const WalletProviderModal: React.FC<ModalProps> = ({ onDismiss }) => {
   return (
     <Modal>
       <ModalTitle text="Select a wallet provider."/>
-
       <ModalContent>
         <StyledWalletsWrapper>
           <StyledWalletCard>
@@ -61,10 +60,13 @@ const StyledWalletsWrapper = styled.div`
     flex-direction: column;
     flex-wrap: none;
   }
+
 `
 
 const StyledWalletCard = styled.div`
   flex-basis: calc(50% - ${(props) => props.theme.spacing[2]}px);
+
+
 `
 
 export default WalletProviderModal
